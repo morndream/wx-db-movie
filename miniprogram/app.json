@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/mymovie/mymovie",
+    "pages/mymap/mymap",
+    "pages/home/home",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/sy.png",
+      "selectedIconPath": "images/sy2.png"
+    },
+    {
+      "pagePath": "pages/mymap/mymap",
+      "text": "地图",
+      "iconPath": "images/dt.png",
+      "selectedIconPath": "images/dt2.png"
+    },
+        {
+          "pagePath": "pages/mymovie/mymovie",
+          "text": "喜欢",
+          "iconPath": "images/xh.png",
+          "selectedIconPath": "images/xh2.png"
+        }
+    ]
+  }
+}
